@@ -1,0 +1,560 @@
+
+.slider-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden;
+    position: relative;
+    z-index: -4;
+    width: 100%;
+    margin: auto;
+
+}
+
+.slide {
+    flex: 0 0 100%;
+
+}
+
+.slide img {
+    width: 100%;
+    height: 80vh;
+    border-radius: 25px;
+    margin-top: 5px;
+    
+}
+.inside-1{
+    position: relative;
+}
+.inside-1{
+    font-size: 2em;
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    width: 55%;
+    animation-name: demo;
+    animation-duration: 2s;
+}
+.item-1{
+    text-shadow: 0px 0px 2px #E43014;
+}
+.free{
+    font-size: 20px;
+    color: #D80E5E;
+}
+.inside-1 button{
+    border: 1px solid #204117;
+    background-color: #204117;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.inside-1 button a{
+    text-decoration: none;
+    color: #fff;
+}
+.inside-1 button:hover{
+    background-color: #E43014 ;
+    border: transparent;
+}
+@keyframes demo {
+    from {top: 50%;}
+    to {top: 15%;}
+  }
+
+.inside-2{
+    position: absolute;
+    top: 5rem;
+    width: 50rem;
+    margin-left: 5%;
+}
+.inside-2 button a{
+    text-decoration: none;
+    color: #fff;
+}
+.item-2{
+    font-size: 3em;
+    color:brown;
+    text-shadow: 2px 2px 2px #000;
+}
+.inside-2 button{
+    border: 1px solid #204117;
+    background-color: #204117;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+       cursor: pointer;
+}
+
+.inside-2 button:hover{
+    background-color: #E43014;
+    border: transparent;
+}
+
+.inside-3{
+    position: absolute;
+    top: 5rem;
+    width: 50rem;
+    margin-left: 5%;
+    object-fit: contain;
+}
+.inside-3 button a{
+    text-decoration: none;
+    color: #fff;
+}
+.item-3{
+    font-size: 3em;
+    color:#204117;
+    text-shadow: 2px 2px 2px #e1e1e1;
+}
+.inside-3 button{
+    border: 1px solid #204117;
+    background-color: #204117;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.inside-3 button:hover{
+    background-color: #E43014;
+    border: transparent;
+}
+#prev, #next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px #fff;
+    border: transparent;
+    background: transparent;
+    color: #0909099d;
+    outline: none;
+}
+#prev:hover{
+    border: 1px solid #fff;
+    background-color: #DDC9B3;
+}
+#next:hover{
+    border: 1px solid #fff;
+    background-color: #DDC9B3;
+}
+
+/* menu page */
+
+.cata-title{
+    font-size: 2em;
+    margin: 20px 0px 20px 40px;
+    font-weight: 600;
+}
+.cata-title a{
+    text-decoration: none; 
+    color:#000;
+}
+.cata-title a:hover{
+    color: #149104;
+
+}
+.row-1-icon{ 
+    display: flex;  
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.row-2-icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.icon-1 img{
+    width: 180px;
+    height: 150px;
+    transition: 0.5s;   
+}
+.icon-1{
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #159104b6;
+    
+}
+.icon-1:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+.icon-1 img:hover{
+    transform: scale(1.2);    
+}
+.icon-2 img{
+    width: 180px;
+    height: 150px;
+    transition: 0.5s;   
+}
+.icon-2{
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #149104;
+    
+}
+.icon-2:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+.icon-2 img:hover{
+    transform: scale(1.2);    
+}
+
+.icon-3 img{
+    width: 180px;
+    height: 150px;
+    transition: 0.5s;   
+}
+.icon-3{
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #149104;
+
+    
+}
+.icon-3:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+.icon-3 img:hover{
+    transform: scale(1.2);    
+}
+
+.icon-4 img{
+    width: 180px;
+    height: 150px;
+    transition: 0.5s;   
+}
+.icon-4{
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #149104;
+
+    
+}
+.icon-4:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+.icon-4 img:hover{
+    transform: scale(1.2);    
+}
+
+.icon-5 img{
+    width: 180px;
+    height: 150px;
+    transition: 0.5s;   
+}
+.icon-5{
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #149104;
+ 
+    
+}
+.icon-5:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+.icon-5 img:hover{
+    transform: scale(1.2);    
+}
+
+
+.icon-6 img{
+    width: 180px;
+    height: 150px;
+    transition: 0.5s;   
+}
+.icon-6{
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #149104;
+  
+    
+}
+.icon-6:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+.icon-6 img:hover{
+    transform: scale(1.2);    
+}
+
+
+.icon-7 img{
+    width: 180px;
+    height: 150px;
+    transition: 0.5s;   
+}
+.icon-7{
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #149104;
+
+    
+}
+.icon-7:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+.icon-7 img:hover{
+    transform: scale(1.2);    
+}
+
+
+.icon-8 img{
+    width: 180px;
+    height: 150px;
+    transition: 0.5s;   
+}
+.icon-8{
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #149104;
+
+    
+}
+.icon-8:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+.icon-8 img:hover{
+    transform: scale(1.2);    
+}
+
+
+.icon-9 img{
+    width: 180px;
+    height: 150px;
+    transition: 0.5s;   
+}
+.icon-9{
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #149104;
+    
+}
+.icon-9:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+.icon-9 img:hover{
+    transform: scale(1.2);    
+}
+
+
+.icon-10 img{
+    width: 180px;
+    height: 150px;
+    transition: 0.5s;   
+}
+.icon-10{
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #149104;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.507);
+    
+}
+.icon-10:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+.icon-10 img:hover{
+    transform: scale(1.2);    
+}
+
+
+@media (min-width:320px) and (max-width:480px){
+    .slide img{
+        margin-top: 55px;
+        height: 45vh;
+    }
+    .item-1{
+        font-size: 17px;
+        width: 300px;
+    }
+    .inside-1{
+        font-size: 2em;
+        position: absolute;
+        left: 10px;
+        top: 70px;
+        width: 300px;
+        animation-name: demo;
+        animation-duration: 2s;
+    }
+
+@keyframes demo {
+    from {top: 180px;}
+    to {top: 70px;}
+  }
+  .inside-1 button{
+    padding: 5px;
+  }
+  .free{
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .cata-title{
+    font-size: 25px;
+    margin: 10px;
+  }
+  .menu-card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+  }
+.row-1-icon{ 
+    display: flex; 
+   flex-direction: column;
+   margin-bottom: 0px;
+
+}
+.row-2-icon{
+    
+    display: flex;
+    flex-direction: column;
+} 
+
+.icon-1 img{
+    width: 150px;
+    height: 100px;
+    transition: 0.5s;   
+}
+.icon-1{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #159104b6; 
+    & p{
+        font-size: 15px;
+    }
+}
+.icon-2 img{ 
+    width: 150px;
+    height: 100px;
+    transition: 0.5s;   
+}
+.icon-2{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #159104b6; 
+}
+.icon-3 img{ 
+    width: 150px;
+    height: 100px;
+    transition: 0.5s;   
+}
+.icon-3{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #159104b6; 
+}
+.icon-4 img{ 
+    width: 150px;
+    height: 100px;
+    transition: 0.5s;   
+}
+.icon-4{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #159104b6; 
+}
+.icon-5 img{ 
+    width: 150px;
+    height: 100px;
+    transition: 0.5s;   
+}
+.icon-5{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #159104b6; 
+}
+.icon-6 img{ 
+    width: 150px;
+    height: 100px;
+    transition: 0.5s;   
+}
+.icon-6{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #159104b6; 
+}
+.icon-7 img{ 
+    width: 150px;
+    height: 100px;
+    transition: 0.5s;   
+}
+.icon-7{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #159104b6; 
+}
+.icon-8 img{ 
+    width: 150px;
+    height: 100px;
+    transition: 0.5s;   
+}
+.icon-8{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #159104b6; 
+}
+.icon-9 img{ 
+    width: 150px;
+    height: 100px;
+    transition: 0.5s;   
+}
+.icon-9{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #159104b6; 
+}
+.icon-10 img{ 
+    width: 150px;
+    height: 100px;
+    transition: 0.5s;   
+}
+.icon-10{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #159104b6; 
+}
+   
+}
